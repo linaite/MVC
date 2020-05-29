@@ -6,19 +6,249 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans:wght@200;300&family=Open+Sans:wght@300;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/bootstrap.css.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
 </head>
 <body>
-<nav>
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="classes.html">Classes</a>
-    <a href="pages.html">Pages</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-</nav>
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-</body>
-</html>
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo-header">
+                        <a href="home.html">
+                            <img src="../../assets/images/logo.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="header-top-right d-flex justify-content-between">
+                        <ul class="d-flex justify-content-center align-self-center">
+                            <li>CALL US: + 1 800-567-8990</li>
+                            <li>WRITE US: OFFICE@EXAMPLE.COM</li>
+                            <li>OPENING TIMES: MON - FRI: 9:00 - 19:00</li>
+                        </ul>
+                        <a href="#" class="primary-btn">JOIN US</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <div class="header-menu">
+                        <ul class="d-flex nav">
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="classes.html">Classes</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Classes Details</a>
+                                    <a class="dropdown-item" href="#">Blog Details</a>
+                                    <a class="dropdown-item" href="#">Pricing</a>
+                                    <a class="dropdown-item" href="#">Faq</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="header-socials">
+                        <a href=""><i class="social-icons mr-25 fab fa-facebook-f"></i></a>
+                        <a href=""><i class="social-icons mr-25 fab fa-twitter"></i></a>
+                        <a href=""><i class="social-icons mr-25 fab fa-instagram"></i></a>
+                        <a href=""><i class="social-icons fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="bg-about">
+        <div class="row first-sec mx-0">
+            <div class="col-12 text-center text-white">
+                <div class="breadcrumb__text">
+                    <h2>Contact</h2>
+                    <div class="breadcrumb__widget">
+                        <a href="home.html">Home</a>
+                        <span>Contact</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="contact__widget__item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h4>Phone</h4>
+                        <p>+01-3-8888-6868</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact__widget__item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h4>Phone</h4>
+                        <p>+01-3-8888-6868</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact__widget__item">
+                        <i class="far fa-clock contact-icon"></i>
+                        <h4>Phone</h4>
+                        <p>+01-3-8888-6868</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact__widget__item">
+                        <i class="far fa-envelope contact-icon"></i>
+                        <h4>Phone</h4>
+                        <p>+01-3-8888-6868</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid position-relative">
+        <iframe class="map-sec w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNiujorkas%2C%20Jungtin%C4%97s%20Valstijos!5e0!3m2!1slt!2slt!4v1590733473214!5m2!1slt!2slt"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="map-inside position-absolute">
+            <div class="inside-widget position-relative">
+                <h5>New York</h5>
+                <span>Phone: +65 11.188.888</span><br>
+                <span>Add: 60-49 Road 11378 New York</span>
+            </div>
+            <i class="fas fa-map-marker-alt contact-icon position-absolute"></i>
+        </div>
+    </section>
+    <section class="container-fluid leave-comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="leave-comment-form">
+                        <h2>Leave A Comment</h2>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" placeholder="Name*">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" placeholder="Email*">
+                                </div>
+                            </div>
+                            <div class="col-12 px-0 text-center">
+                                <textarea placeholder="Your Comment"></textarea>
+                                <button type="submit" class="site-btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="footer__about">
+                    <img src="../../assets/images/footer-logo.webp" alt="">
+                    <ul>
+                        <li>
+                            <i class="far fa-clock"></i> Mon - Fri: 6:30am - 07:45pm
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i> Sat - Sun: 8:30am - 05:45pm
+                        </li>
+                    </ul>
+                    <form action="#" class="subscribe-form position-relative">
+                        <input type="text" placeholder="Your Email">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-2 offset-lg-1 ">
+                <div class="footer__widget">
+                    <h5>Inspiration</h5>
+                    <ul>
+                        <li><a href="#">Online Pilates</a></li>
+                        <li><a href="#">Yoga for Beginners</a></li>
+                        <li><a href="#">Online Pilates</a></li>
+                        <li><a href="#">Online Yoga</a></li>
+                        <li><a href="#">Conditioning</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="footer__widget">
+                    <h5>Inspiration</h5>
+                    <ul>
+                        <li><a href="#">Online Pilates</a></li>
+                        <li><a href="#">Yoga for Beginners</a></li>
+                        <li><a href="#">Online Pilates</a></li>
+                        <li><a href="#">Online Yoga</a></li>
+                        <li><a href="#">Conditioning</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footer__widget">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-address">
+                        <li><i class="fa fa-phone"></i> (01) 436 8888</li>
+                        <li><i class="fa fa-envelope"></i> hello@zogin.com</li>
+                        <li><i class="fa fa-location-arrow"></i> 828 Granville Lights Suite 466</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="row">
+                <div class="col-7">
+
+                    <div class="footer__copyright__text">
+                        <p>Copyright © 2020 All rights reserved | This template is made with <i class="fa fa-heart"></i>
+                            by
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    </div>
+
+                </div>
+                <div class="col-5">
+                    <div class="footer__copyright__social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
